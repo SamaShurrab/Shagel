@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شاغل</string>
+    <string name="Text_View_welcome">مرحباً بك في شاغر للوظائف</string>
+    <string name="hint_search">أدخل اسم الوظيفة</string>
+    <string name="Text_View_important_jobs">أهم الوظائف</string>
+    <string name="Text_View_describtion">بدء التسجيل ببرنامج التدريب المنتهي بالتوظيف</string>
+    <string name="Text_View_name_bank">بنك الخليج العربي</string>
+    <string name="Text_View_time_date">15 Feb. 2019 | 08:00 am</string>
+    <string name="Text_View_categories">تصنيفات الوظائف</string>
+    <string name="Text_View_coursess">دورات</string>
+    <string name="Text_View_military_jobs">وظائف عسكرية</string>
+    <string name="Text_View_Civil_jobs">وظائف مدنية</string>
+    <string name="Text_View_Corporate_jobs">وظائف شركات</string>
+    <string name="Text_View_female_jobs">وظائف نسائية</string>
+    <string name="Text_View_Acceptance_results">نتائج القبول</string>
+    <string name="Text_View_Latest_jobs_posted">اخر الوظائف المعلنة</string>
+    <string name="Text_View_Jobs_for_men">وظائف هندسة و إدارية و فنية شاغرة للرجال</string>
+    <string name="Text_View_Vacancies_for_women">مؤسسة التدريب التقني و المهني | وظائف شاغرة للنساء</string>
+    <string name="Text_View_name_company">شركة ساسرف أرامكو</string>
+    <string name="Text_View_name_company2">موبيلي</string>
+    <string name="Text_View_name_institution">مؤسسة التدريب التقني و المهني</string>
+    <string name="Text_View_example1">النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص  </string>
+    <string name="Text_View_about">من نحن </string>
+    <string name="Text_View_site">www.shagher.net </string>
+    <string name="Text_View_app_name">موقع شاغر</string>
+    <string name="Text_View_about_des1">هو عبارة عن منصة للربط مابين</string>
+    <string name="Text_View_about_des2">أصحاب العمل والشباب المؤهلين الباحثين عن عمل</string>
+    <string name="Text_View_about_des3">في </string>
+    <string name="Text_View_about_des4">، وخلق العديد من </string>
+    <string name="Text_View_about_des5">الفرص للمرشحين الموهوبين لدعم وتحسين  </string>
+    <string name="Text_View_about_des6">مساراتهم الوظيفية. </string>
+    <string name="Text_View_about_country">المملكة العربية السعودية</string>
+    <string name="Text_View_about_version"> V 1.0.0</string>
+    <string name="Text_View_hint">أدخل اسم الوظيفة</string>
+    <string name="listView_textview">وظائف هندسة و إدارية و فنية شاغرة للرجال في مدينة الملك حسين</string>
+    <string name="contactus">اتصل بنا</string>
+    <string name="textView_text">نسعد بالتواصل معكم و الرد على استفساراتكم</string>
+    <string name="full_name">الاسم كاملاً</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="masseges">الرسالة </string>
+    <string name="send">إرسال الان </string>
+    <string name="app_name_job">تطبيق شاغر للوظائف </string>
+    <string name="last_job">اخر الوظائف المعلنة </string>
+    <string name="categories_jod">تصنيفات الوظائف </string>
+    <string name="about">من نحن </string>
+    <string name="advertise_us">أعلن معنا </string>
+    <string name="call_us">اتصل بنا </string>
+    <string name="job_details">وظائف هندسة و إدارية و فنية شاغرة للرجال </string>
+    <string name="click">اضغط هنا للتقدم </string>
+    <string name="job_details_text1">أعلن المعهد السعودي التقني للتعدين – عبر موقعه الالكتروني – عن بدء التسجيل في برامج دبلوم التعدين المنتهي بالتوظيف في (شركة معادن) لمناطق مهد الذهب والقرى المحيطة بمنجم مهد الذهب ومناطق الآمار والقويعية والقرى المحيطة بها بمنجم الآمار.</string>
+    <string name="job_details_text2">شروط القبول :-</string>
+    <string name="job_details_text3">– أن يكون المتقدم سعودي الجنسية.</string>
+    <string name="job_details_text4">– أن لا يزيد عمر المتقدم عن 22 سنة.</string>
+    <string name="job_details_text5">– أن يكون حاصلاً على شهادة الثانوية علمي بمعدل لا يقل عن 80%.</string>
+    <string name="job_details_text6">– أن تكون درجة القدرات 65 فما فوق.</string>
+    <string name="job_details_text7">– أن يكون لائقاً طبياً.</string>
+    <string name="job_details_text8">– لم يسبق له الاستفادة من دعم صندوق الموارد البشرية.</string>
+    <string name="job_details_text9">موعد التقديم :-</string>
+    <string name="job_details_text10">سوف يتم استقبال طلبات القبول على تلك الوظائف خلال الفترة من يوم الأحد 9 / 6 / 1439 هـ الساعة 10 صباحاً، وحتى يوم الخميس 13 / 6 / 1439 هـ الساعة 10 صباحاً.</string>
+    <string name="share">انشر الوظيفة بين أصدقائك</string>
+    <string name="whatsapp">عبر واتس اب</string>
+    <string name="facebook"> عبر فيسبوك</string>
+    <string name="tiwteer"> عبر تويتر</string>
+    <string name="email2">عبر البريد الالكتروني</string>
+    <string name="link">bit.ly/cnyt/dl</string>
+    <string name="copy">نسخ الرابط</string>
+    <string name="details">أعلن المعهد السعودي التقني للتعدين – عبر موقعه الالكتروني – عن بدء التسجيل في برامج دبلوم التعدين المنتهي بالتوظيف في (شركة معادن) لمناطق مهد الذهب والقرى المحيطة بمنجم مهد الذهب ومناطق الآمار والقويعية والقرى المحيطة بها بمنجم الآمار.
+
+شروط القبول :-
+– أن يكون المتقدم سعودي الجنسية.
+– أن لا يزيد عمر المتقدم عن 22 سنة.
+– أن يكون حاصلاً على شهادة الثانوية علمي بمعدل لا يقل عن 80%.
+– أن تكون درجة القدرات 65 فما فوق.
+– أن يكون لائقاً طبياً.
+– لم يسبق له الاستفادة من دعم صندوق الموارد البشرية.
+
+موعد التقديم :-
+سوف يتم استقبال طلبات القبول على تلك الوظائف خلال الفترة من يوم الأحد 9 / 6 / 1439 هـ الساعة 10 صباحاً، وحتى يوم الخميس 13 / 6 / 1439 هـ الساعة 10 صباحاً.
+
+
+</string>
+
+
+</resources>

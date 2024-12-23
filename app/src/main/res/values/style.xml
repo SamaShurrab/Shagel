@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditText_Search">
+       <item name="android:layout_marginStart">20dp</item>
+       <item name="android:layout_marginEnd">20dp</item>
+       <item name="android:layout_marginTop">30dp</item>
+       <item name="android:background">@drawable/edit_text_search</item>
+       <item name="android:fontFamily">@font/bahij_thesansarabic_bold</item>
+       <item name="android:textColor">@color/Viking</item>
+       <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Linearlayout_background">
+        <item name="android:background">@color/Viking</item>
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="TextViwe_layout_name">
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/bahij_thesansarabic_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">55sp</item>
+    </style>
+
+
+</resources>

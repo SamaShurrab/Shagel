@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Snow">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Home"
+        android:background="@color/Snow">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/Viking"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageView
+                android:id="@+id/imageView_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="21dp"
+                app:srcCompat="@drawable/list" />
+
+            <TextView
+                android:id="@+id/textView_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/bahij_thesansarabic_bold"
+                android:text="@string/Text_View_welcome"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/bahij_thesansarabic_bold"
+                android:text="@string/Text_View_example1"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText_search"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/Midnight"
+            android:background="@drawable/edit_text_search"
+            android:drawableEnd="@drawable/search"
+            android:fontFamily="@font/bahij_thesansarabic_bold"
+            android:hint="@string/hint_search"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="@color/Silver"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout4"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textView_important_jobs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bahij_thesansarabic_bold"
+                android:gravity="right"
+                android:paddingStart="10dp"
+                android:text="@string/Text_View_important_jobs"
+                android:textColor="@color/Matterhorn"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Snow"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/horizontal_rv_important_jobs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linear"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textView_categories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bahij_thesansarabic_bold"
+                android:gravity="right"
+                android:paddingStart="10dp"
+                android:text="@string/Text_View_categories"
+                android:textColor="@color/Charcoal"
+                android:textSize="14sp" />
+            <GridView
+                android:layout_marginTop="10dp"
+                android:id="@+id/GridView_categories_jobs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">\
+            <TextView
+                android:id="@+id/textView_last_jobs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bahij_thesansarabic_bold"
+                android:gravity="right"
+                android:text="@string/last_job"
+                android:textColor="@color/Charcoal"
+                android:paddingStart="10dp"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/horizontal_rv_last_jobs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

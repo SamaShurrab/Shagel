@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/Snow"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:elevation="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".Custom_ListView_Menu">
+
+        <TextView
+            android:id="@+id/jobs_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="21dp"
+            android:fontFamily="@font/bahij_thesansarabic_bold"
+            android:text="@string/listView_textview"
+            android:textColor="@color/Charcoal"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/White_Smoke"
+            android:layout_marginBottom="13dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp">
+
+
+            <ImageView
+                android:id="@+id/imageView_company_logo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/bank_alkallej_logo"
+                android:background="@drawable/logo_circle"/>
+
+            <TextView
+                android:id="@+id/textView_company_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="@string/Text_View_name_bank"
+                android:textSize="10sp"
+                android:fontFamily="@font/bahij_thesansarabic_bold"
+                android:textColor="@color/Pelorous"
+                android:gravity="center|right"
+                android:layout_marginStart="13dp"/>
+
+            <TextView
+                android:id="@+id/textView_jobs_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textSize="10sp"
+                android:textColor="@color/Matterhorn"
+                android:gravity="center|left"
+                android:layout_marginEnd="14dp"
+                android:fontFamily="@font/bahij_thesansarabic_bold"
+                android:text="@string/Text_View_time_date" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
